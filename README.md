@@ -16,7 +16,7 @@ With this ASP.NET Core MVC-based project, both vehicle sales and service/appoint
 
 - **.NET 9 (ASP.NET Core MVC)**
 - **Entity Framework Core**
-- **SQL Server (LocalDB or another provider)**
+- **SQL Server (LocalDB)**
 - **Bootstrap 5, Bootstrap Icons**
 - **Session based favorite management**
 - **Layered architecture (Entities, Data, Service, WebUI)**
