@@ -14,7 +14,7 @@ With this ASP.NET Core MVC-based project, both vehicle sales and service/appoint
 
 - ## Technologies Used
 
-- **.NET 7/8 (ASP.NET Core MVC)**
+- **.NET 9 (ASP.NET Core MVC)**
 - **Entity Framework Core**
 - **SQL Server (LocalDB or another provider)**
 - **Bootstrap 5, Bootstrap Icons**
