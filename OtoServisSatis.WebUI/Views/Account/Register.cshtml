@@ -1,0 +1,51 @@
+﻿@model Kullanici
+
+@{
+    ViewData["Title"] = "Üye Kayıt";
+}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-lg-5 col-md-7">
+        <div class="card shadow-lg border-0 bg-dark text-light">
+            <div class="card-header bg-dark border-0">
+                <h3 class="mb-0"><i class="bi bi-person-plus"></i> @ViewData["Title"]</h3>
+            </div>
+            <div class="card-body">
+                <form asp-action="Register" autocomplete="off">
+                    <div asp-validation-summary="ModelOnly" class="text-warning mb-2"></div>
+                    <div class="mb-3">
+                        <label asp-for="Adi" class="form-label"></label>
+                        <input asp-for="Adi" class="form-control bg-secondary-subtle border-0 text-dark" />
+                        <span asp-validation-for="Adi" class="text-warning"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Soyadi" class="form-label"></label>
+                        <input asp-for="Soyadi" class="form-control bg-secondary-subtle border-0 text-dark" />
+                        <span asp-validation-for="Soyadi" class="text-warning"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control bg-secondary-subtle border-0 text-dark" />
+                        <span asp-validation-for="Email" class="text-warning"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Telefon" class="form-label"></label>
+                        <input asp-for="Telefon" class="form-control bg-secondary-subtle border-0 text-dark" />
+                        <span asp-validation-for="Telefon" class="text-warning"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Sifre" class="form-label"></label>
+                        <input asp-for="Sifre" class="form-control bg-secondary-subtle border-0 text-dark" type="password" />
+                        <span asp-validation-for="Sifre" class="text-warning"></span>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-main btn-lg">
+                            <i class="bi bi-person-plus"></i> Kaydol
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

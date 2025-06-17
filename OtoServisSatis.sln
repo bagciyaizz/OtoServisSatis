@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoServisSatis.WebUI", "OtoServisSatis.WebUI\OtoServisSatis.WebUI.csproj", "{EB27B656-598D-4E88-97E2-52944B509264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoServisSatis.Entities", "OtoServisSatis.Entities\OtoServisSatis.Entities.csproj", "{09E07434-9F4A-42AE-A87D-113D93F9962D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoServisSatis.Data", "OtoServisSatis.Data\OtoServisSatis.Data.csproj", "{C6596F12-C413-4981-BACB-B1E65B2B09BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoServisSatis.Service", "OtoServisSatis.Service\OtoServisSatis.Service.csproj", "{227B61CB-4534-4ADC-BA96-91523961D558}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB27B656-598D-4E88-97E2-52944B509264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB27B656-598D-4E88-97E2-52944B509264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB27B656-598D-4E88-97E2-52944B509264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB27B656-598D-4E88-97E2-52944B509264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E07434-9F4A-42AE-A87D-113D93F9962D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E07434-9F4A-42AE-A87D-113D93F9962D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E07434-9F4A-42AE-A87D-113D93F9962D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E07434-9F4A-42AE-A87D-113D93F9962D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6596F12-C413-4981-BACB-B1E65B2B09BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6596F12-C413-4981-BACB-B1E65B2B09BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6596F12-C413-4981-BACB-B1E65B2B09BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6596F12-C413-4981-BACB-B1E65B2B09BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227B61CB-4534-4ADC-BA96-91523961D558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227B61CB-4534-4ADC-BA96-91523961D558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227B61CB-4534-4ADC-BA96-91523961D558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227B61CB-4534-4ADC-BA96-91523961D558}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
